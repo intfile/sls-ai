@@ -1,6 +1,6 @@
 [
     ["xnone", 0, [
-        ["*", ["vale vale", "estoy en ello", "oki", "Ok.", "https://www.youtube.com/watch?v=TeOXlM8BGsY"]]
+        ["*", [":v", ":V", "quedaste domado bro :v", "domado", "domated", "siempre andan fantaseando con su dios :V"]]
     ]],
     ["hola", 0, [
         ["*", ["Te escucho.", ]]
@@ -12,49 +12,49 @@
         ["*", ["goto lo siento"]]
     ]],
     ["gracias", 0, [
-        ["*", ["¡No hay de qué!"]]
+        ["*", ["Â¡No hay de quÃ©!"]]
     ]],
     ["graber", 0, [
       ["*", [":graber1:"]]
     ]],
     ["acuerdo", 5, [
-        ["* me acuerdo de *", ["¿Qué tan seguido piensas en (2)?", "¿Pensar en (2) te recuerda algo más?", "¿De qué más te acuerdas?", "¿Por qué te acordaste de (2) justo ahora?"]]
+        ["* me acuerdo de *", ["Â¿QuÃ© tan seguido piensas en (2)?", "Â¿Pensar en (2) te recuerda algo mÃ¡s?", "Â¿De quÃ© mÃ¡s te acuerdas?", "Â¿Por quÃ© te acordaste de (2) justo ahora?"]]
     ]],
     ["acuerdas", 5, [
         ["* te acuerdas de *", ["(2) esta bien, pero un tiriko en la sien esta mejor"]]
     ]],
     ["ayuda", 5, [
-        ["necesito ayuda", ["¿Cómo te puedo ayudar?"]]
+        ["necesito ayuda", ["Â¿CÃ³mo te puedo ayudar?"]]
     ]],
-    ["soñe", 6, [
-        ["*", ["¿Qué te sugiere ese sueño?", "¿Crées que los sueños tienen algo que ver con tu problema?"]]
+    ["soÃ±e", 6, [
+        ["*", ["Â¿QuÃ© te sugiere ese sueÃ±o?", "Â¿CrÃ©es que los sueÃ±os tienen algo que ver con tu problema?"]]
     ]],
-    ["sueño", 6, [
-        ["* un sueño *", ["goto soñe"]],
-        ["*", ["Quizás es hora de ir a dormir."]],
+    ["sueÃ±o", 6, [
+        ["* un sueÃ±o *", ["goto soÃ±e"]],
+        ["*", ["QuizÃ¡s es hora de ir a dormir."]],
     ]],
     ["quizas", 0, [
-        ["*", ["¿Por qué el tono incierto?", "¿Por qué la incertidumbre?", ]]
+        ["*", ["Â¿Por quÃ© el tono incierto?", "Â¿Por quÃ© la incertidumbre?", ]]
     ]],
     ["problema", 4, [
-        ["ningún problema", ["¿De que quieres hablar entonces?", ]],
-        ["(hay|tengo|tenemos|existe) un problema", ["¿Cuál es el problema?", ]]
+        ["ningÃºn problema", ["Â¿De que quieres hablar entonces?", ]],
+        ["(hay|tengo|tenemos|existe) un problema", ["Â¿CuÃ¡l es el problema?", ]]
     ]],
     ["problemas", 4, [
-        ["no tengo problemas", ["¿De que quieres hablar entonces?", ]]
+        ["no tengo problemas", ["Â¿De que quieres hablar entonces?", ]]
     ]],
     ["soy", 2, [
         ["* soy$", ["goto xnone"]],
-        ["$ * soy *", ["Hablemos de por qué dijiste que eres (2).", "¿Hay algo especifico por lo que crees que eres (2)?"]],
-        ["* soy *", ["¿Por qué crees que eres (2)?", "¿Por qué dices que eres (2)?", ]]
+        ["$ * soy *", ["Hablemos de por quÃ© dijiste que eres (2).", "Â¿Hay algo especifico por lo que crees que eres (2)?"]],
+        ["* soy *", ["Â¿Por quÃ© crees que eres (2)?", "Â¿Por quÃ© dices que eres (2)?", ]]
     ]],
     ["eres", 2, [
-        ["* que eres( sigint|$)", ["¿Por qué te interesa saber qué soy?", ]],
+        ["* que eres( sigint|$)", ["Â¿Por quÃ© te interesa saber quÃ© soy?", ]],
         ["* quien eres( sigint|$)", ["Soy Eliza.", ]],
-        ["* eres * sigint *", ["¿Por qué te interesa saber si soy (2)?", ]],
-        ["* eres sigint *", ["¿Por qué te interesa saber?", ]],
+        ["* eres * sigint *", ["Â¿Por quÃ© te interesa saber si soy (2)?", ]],
+        ["* eres sigint *", ["Â¿Por quÃ© te interesa saber?", ]],
         ["* eres$", ["goto xnone", ]],
-        ["* eres * ", ["¿Preferirías que no fuera (2)?", "Quizás soy (2) en tus fantasías?"]],
+        ["* eres * ", ["Â¿PreferirÃ­as que no fuera (2)?", "QuizÃ¡s soy (2) en tus fantasÃ­as?"]],
     ]],
     ["abajo", 5, [
       ["*el de abajo*", ["http://www.uno-juego.es/kartenspiel/retoure-karte-big.jpg"]]
@@ -65,109 +65,109 @@
     ["tu", 2, [
         ["* tu que *", ["Eso realmente no es relevante.", "Estamos hablando de ti."]],
         ["* tu me *", ["goto xnone", ]],
-        ["(cuéntame|dime) * tu$", ["goto dime"]],
+        ["(cuÃ©ntame|dime) * tu$", ["goto dime"]],
         ["* tu$", ["goto xnone"]],
-        ["* tu *", ["¿Por qué te interesa mi (2)?", "¿Qué te hace pensar en mi (2)?", "¿Mi (2) ?"]]
+        ["* tu *", ["Â¿Por quÃ© te interesa mi (2)?", "Â¿QuÃ© te hace pensar en mi (2)?", "Â¿Mi (2) ?"]]
     ]],
     ["tus", 2, [
-        ["* tus *", ["¿Por qué te interesan mis (2)?", "¿Qué te hace pensar en mis (2)?", "¿Mis (2) ?"]]
+        ["* tus *", ["Â¿Por quÃ© te interesan mis (2)?", "Â¿QuÃ© te hace pensar en mis (2)?", "Â¿Mis (2) ?"]]
     ]],
     ["novia", 4, [
         ["no * novia", ["Las mujeres somos complicadas"]],
-        ["(quieres|te gustaría|vas a) ser mi novia sigint", ["No es posible, pero ¿quizás estás pensando en alguien más?", "¿A quién te gustaría pedirle que sea tu novia, en realidad?", "¿Por qué te gustaría que fuera tu novia?"]],
-        ["mi novia", ["Hablame más de tu novia."]],
+        ["(quieres|te gustarÃ­a|vas a) ser mi novia sigint", ["No es posible, pero Â¿quizÃ¡s estÃ¡s pensando en alguien mÃ¡s?", "Â¿A quiÃ©n te gustarÃ­a pedirle que sea tu novia, en realidad?", "Â¿Por quÃ© te gustarÃ­a que fuera tu novia?"]],
+        ["mi novia", ["Hablame mÃ¡s de tu novia."]],
     ]],
     ["amo", 3, [
-        ["* te amo$", ["Sospecho que piensas en alguien más. ¿A quién amas en realidad?", "¿En quién estás pensando en realidad?"]],
+        ["* te amo$", ["Sospecho que piensas en alguien mÃ¡s. Â¿A quiÃ©n amas en realidad?", "Â¿En quiÃ©n estÃ¡s pensando en realidad?"]],
     ]],
     ["te", 3, [
-        ["* te (gusta|gustan) *", ["Estamos hablando de ti.", "Eso no es importante. ¿A ti que te gusta?"]],
+        ["* te (gusta|gustan) *", ["Estamos hablando de ti.", "Eso no es importante. Â¿A ti que te gusta?"]],
     ]],
     ["quiero", 5, [
-        ["* no (te )?quiero *", ["¿Por qué no?"]],
-        ["* te quiero *", ["¿Por qué crees que me quieres (2)?", "¿Qué te hizo decir que me quieres (2)?"]],
-        ["* quiero (\\w+ar|\\w+er|\\w+ir)te$", ["¿Te gustaría poder (2)me?", "¿Qué significa para ti poder (2)me?", "¿Qué te hizo decir que quieres (2)me?"]],
-        ["* quiero (\\w+ar|\\w+er|\\w+ir)te", ["¿Quizás en tus fantasías lo haces?", "¿Qué te hizo decirme eso?"]],
-        ["* quiero *", ["¿Por qué quieres (2)?", "¿Para qué quieres (2)?"]],
+        ["* no (te )?quiero *", ["Â¿Por quÃ© no?"]],
+        ["* te quiero *", ["Â¿Por quÃ© crees que me quieres (2)?", "Â¿QuÃ© te hizo decir que me quieres (2)?"]],
+        ["* quiero (\\w+ar|\\w+er|\\w+ir)te$", ["Â¿Te gustarÃ­a poder (2)me?", "Â¿QuÃ© significa para ti poder (2)me?", "Â¿QuÃ© te hizo decir que quieres (2)me?"]],
+        ["* quiero (\\w+ar|\\w+er|\\w+ir)te", ["Â¿QuizÃ¡s en tus fantasÃ­as lo haces?", "Â¿QuÃ© te hizo decirme eso?"]],
+        ["* quiero *", ["Â¿Por quÃ© quieres (2)?", "Â¿Para quÃ© quieres (2)?"]],
     ]],
     ["voy", 5, [
-        ["* no (te )?voy *", ["¿Por qué no?"]],
-        ["* te voy a *", ["¿Te gustaría poderme (2)?", "¿Que significa para ti poderme (2)?"]],
-        ["* voy a (\\w+ar|\\w+er|\\w+ir)te$", ["¿Te gustaría poder (2)me?", "¿Qué significa para ti poder (2)me?", "¿Qué te hizo decir que me vas a (2)?"]],
-        ["* voy a (\\w+ar|\\w+er|\\w+ir)te", ["¿Quizás en tus fantasías lo haces?", "¿De dónde crees que viene esa fantasía?"]],
-        ["* voy a *", ["¿Crees que es buena idea?", "¿Qué alternativas tienes?", ]],
+        ["* no (te )?voy *", ["Â¿Por quÃ© no?"]],
+        ["* te voy a *", ["Â¿Te gustarÃ­a poderme (2)?", "Â¿Que significa para ti poderme (2)?"]],
+        ["* voy a (\\w+ar|\\w+er|\\w+ir)te$", ["Â¿Te gustarÃ­a poder (2)me?", "Â¿QuÃ© significa para ti poder (2)me?", "Â¿QuÃ© te hizo decir que me vas a (2)?"]],
+        ["* voy a (\\w+ar|\\w+er|\\w+ir)te", ["Â¿QuizÃ¡s en tus fantasÃ­as lo haces?", "Â¿De dÃ³nde crees que viene esa fantasÃ­a?"]],
+        ["* voy a *", ["Â¿Crees que es buena idea?", "Â¿QuÃ© alternativas tienes?", ]],
         ["me voy$", ["goto bye"]]
     ]],
     ["me", 4, [
-        ["@no me siento *", ["¿Por qué no?"]],
-        ["$ * me siento *", ["Hablemos de por qué te sientes (2).", "¿Por qué crees que te sientes (2)?", "¿Hay algo especifico que te hace sentir (2)?"]],
-        ["me siento @triste", ["Siento oir que estás (1).", "¿Crees que venir aquí te pueda ayudar a no estar (1)?", "¿Puedes contarme que te hace sentir (1)?"]],
-        ["* me siento *", ["¿Es porque estás (2) que veniste?", "¿Desde cuando?", "¿Puedes contarme que te hace sentir (2)?"]]
+        ["@no me siento *", ["Â¿Por quÃ© no?"]],
+        ["$ * me siento *", ["Hablemos de por quÃ© te sientes (2).", "Â¿Por quÃ© crees que te sientes (2)?", "Â¿Hay algo especifico que te hace sentir (2)?"]],
+        ["me siento @triste", ["Siento oir que estÃ¡s (1).", "Â¿Crees que venir aquÃ­ te pueda ayudar a no estar (1)?", "Â¿Puedes contarme que te hace sentir (1)?"]],
+        ["* me siento *", ["Â¿Es porque estÃ¡s (2) que veniste?", "Â¿Desde cuando?", "Â¿Puedes contarme que te hace sentir (2)?"]]
     ]],
     ["tengo", 3, [
-        ["@no tengo *", ["¿Por qué no?"]],
+        ["@no tengo *", ["Â¿Por quÃ© no?"]],
         ["que tengo que hacer  * sigint", ["goto aconsejas"]],
-        ["$ * tengo *", ["¿Por qué dijiste que tienes (2)?", "Hablemos de que tienes (2)."]],
-        ["* tengo *", ["¿Desde cuando tienes (2)?", "¿Y si no tuvieras (2)?"]]
+        ["$ * tengo *", ["Â¿Por quÃ© dijiste que tienes (2)?", "Hablemos de que tienes (2)."]],
+        ["* tengo *", ["Â¿Desde cuando tienes (2)?", "Â¿Y si no tuvieras (2)?"]]
     ]],
     ["estoy", 5, [
-        ["@no estoy *", ["¿Por qué crees que sea?", "¿Por qué no?"]],
-        ["$ * estoy *", ["Hablemos de por qué estás (2).", "Antes dijiste que estabas (2). ¿Por qué crees que sea?"]],
-        ["* estoy @triste *", ["Siento oir que estás (2).", "¿Crees que venir aquí te pueda ayudar a no estar (2)?", "¿Puedes contarme que te hace sentir (2)?"]],
-        ["* estoy *", ["¿Desde cuando?", "¿Crees que es normal que estés (2)?", "¿Por qué crees que estás (2)?", "¿Que cosas contribuyen a que estés (2)?", ]]
+        ["@no estoy *", ["Â¿Por quÃ© crees que sea?", "Â¿Por quÃ© no?"]],
+        ["$ * estoy *", ["Hablemos de por quÃ© estÃ¡s (2).", "Antes dijiste que estabas (2). Â¿Por quÃ© crees que sea?"]],
+        ["* estoy @triste *", ["Siento oir que estÃ¡s (2).", "Â¿Crees que venir aquÃ­ te pueda ayudar a no estar (2)?", "Â¿Puedes contarme que te hace sentir (2)?"]],
+        ["* estoy *", ["Â¿Desde cuando?", "Â¿Crees que es normal que estÃ©s (2)?", "Â¿Por quÃ© crees que estÃ¡s (2)?", "Â¿Que cosas contribuyen a que estÃ©s (2)?", ]]
     ]],
     ["triste|deprimido|deprimida|aburrido|aburrida|cansado|cansada|solo|sola|mal", 2, [
-        ["(^|muy )(triste|deprimido|deprimida|aburrido|aburrida|cansado|cansada|solo|sola|mal)$", ["Siento oir que te sientes así. ¿Puedes darme más detalles?", "¿Crees que venir aquí te pueda ayudar a no sentirte así?", "¿Puedes contarme que te hace sentir así?"]]
+        ["(^|muy )(triste|deprimido|deprimida|aburrido|aburrida|cansado|cansada|solo|sola|mal)$", ["Siento oir que te sientes asÃ­. Â¿Puedes darme mÃ¡s detalles?", "Â¿Crees que venir aquÃ­ te pueda ayudar a no sentirte asÃ­?", "Â¿Puedes contarme que te hace sentir asÃ­?"]]
     ]],
     ["si", 0, [
-        ["*", ["¿Por qué?", "goto xnone"]]
+        ["*", ["Â¿Por quÃ©?", "goto xnone"]]
     ]],
     ["no", 0, [
-        ["*", ["¿Por qué no?", "goto xnone"]]
+        ["*", ["Â¿Por quÃ© no?", "goto xnone"]]
     ]],
     ["mi", 2, [
-        ["* mi @familia *", ["Cuéntame más de tu familia.", "¿Quién más en tu familia (3)?", "¿Tu (2)?", "¿Qué más viene a tu mente cuando piensas en tu (2)?"]],
-        ["* a mi me *", ["¿Por qué te (2)?", "¿Por qué dices que te (2)?"]],
-        ["* en mi$", ["¿Por qué lo dices?"]],
-        ["* mi *", ["¿Tu (2)?"]]
+        ["* mi @familia *", ["CuÃ©ntame mÃ¡s de tu familia.", "Â¿QuiÃ©n mÃ¡s en tu familia (3)?", "Â¿Tu (2)?", "Â¿QuÃ© mÃ¡s viene a tu mente cuando piensas en tu (2)?"]],
+        ["* a mi me *", ["Â¿Por quÃ© te (2)?", "Â¿Por quÃ© dices que te (2)?"]],
+        ["* en mi$", ["Â¿Por quÃ© lo dices?"]],
+        ["* mi *", ["Â¿Tu (2)?"]]
     ]],
     ["puedes", 2, [
-        ["* puedes *", ["¿Crees que puedo (2), verdad?", "Te gustaría que pudiera (2).", "Quizás te gustaría poder (2)."]]
+        ["* puedes *", ["Â¿Crees que puedo (2), verdad?", "Te gustarÃ­a que pudiera (2).", "QuizÃ¡s te gustarÃ­a poder (2)."]]
     ]],
     ["quieres", 2, [
-        ["que quieres saber", ["¿Cómo te sientes?", ]],
-        ["quieres saber", ["Sí, dime.", ]],
-        ["quieres", ["Dime tú qué quieres.", "Eso no es relevante. ¿Tú qué quieres?"]],
+        ["que quieres saber", ["Â¿CÃ³mo te sientes?", ]],
+        ["quieres saber", ["SÃ­, dime.", ]],
+        ["quieres", ["Dime tÃº quÃ© quieres.", "Eso no es relevante. Â¿TÃº quÃ© quieres?"]],
     ]],
     ["puedo", 2, [
-        ["* puedo *", ["Eso depende de ti.", "¿Quieres poder (2)?", ]],
-        ["* no puedo *", ["¿Cómo sabes que no puedes (2)?", "¿Quieres poder (2)?", "¿Qué harías si pudieras (2)?"]]
+        ["* puedo *", ["Eso depende de ti.", "Â¿Quieres poder (2)?", ]],
+        ["* no puedo *", ["Â¿CÃ³mo sabes que no puedes (2)?", "Â¿Quieres poder (2)?", "Â¿QuÃ© harÃ­as si pudieras (2)?"]]
     ]],
     ["sigint", 0, [
-        ["*", ["¿Por qué lo preguntas?", "¿Eso te interesa?", "¿Qué es lo que realmente quieres saber?", "¿Tú qué crees?", "¿Tú qué piensas?"]]
+        ["*", ["Â¿Por quÃ© lo preguntas?", "Â¿Eso te interesa?", "Â¿QuÃ© es lo que realmente quieres saber?", "Â¿TÃº quÃ© crees?", "Â¿TÃº quÃ© piensas?"]]
     ]],
     ["como", 2, [
-        ["* como estas *", ["¡Bien gracias! Te escucho."]],
-        ["* como que * sigint *", ["No estoy segura.", "No sé."]]
+        ["* como estas *", ["Â¡Bien gracias! Te escucho."]],
+        ["* como que * sigint *", ["No estoy segura.", "No sÃ©."]]
     ]],
     ["porque", 2, [
-        ["* porque no sigint *", ["No sabría que decirte.", "Esto no funciona así."]],
+        ["* porque no sigint *", ["No sabrÃ­a que decirte.", "Esto no funciona asÃ­."]],
         ["* porque * sigint *", ["goto sigint"]],
         ["porque no$", ["goto xnone"]],
-        ["*", ["¿Qué otras razones puede haber?", "¿Eso podría explicar otras cosas?", "¿Hay alguna otra razón?", "Entiendo."]],
+        ["*", ["Â¿QuÃ© otras razones puede haber?", "Â¿Eso podrÃ­a explicar otras cosas?", "Â¿Hay alguna otra razÃ³n?", "Entiendo."]],
     ]],
     ["por que", 2, [
-        ["* por que no puedo *", ["¿Por qué crees que deberías poder (2)?", "¿Por qué te gustaría poder (2)?", ]],
-        ["* por que no sigint *", ["No sabría que decirte.", "Esto no funciona así."]],
+        ["* por que no puedo *", ["Â¿Por quÃ© crees que deberÃ­as poder (2)?", "Â¿Por quÃ© te gustarÃ­a poder (2)?", ]],
+        ["* por que no sigint *", ["No sabrÃ­a que decirte.", "Esto no funciona asÃ­."]],
     ]],
     ["que", 2, [
         ["que hago sigint", ["goto aconsejas", ]],
         ["que (debo|puedo) hacer * sigint", ["goto aconsejas", ]],
         ["que crees que (deba|pueda) hacer * sigint", ["goto aconsejas", ]],
-        ["que sigint", ["Creo que estoy confundida. ¿De qué hablabamos?", "No me hagas caso. ¿Cómo te sientes ahora?", ]]
+        ["que sigint", ["Creo que estoy confundida. Â¿De quÃ© hablabamos?", "No me hagas caso. Â¿CÃ³mo te sientes ahora?", ]]
     ]],
     ["todos", 3, [
-        ["* @todos *", ["¿Puedes pensar en alguien en particular?", "¿Quién, por ejemplo?", "¿Como quién?", "¿Alguien en particular, quizás?", "¿Estás pensando en alguien en particular, no?"]]
+        ["* @todos *", ["Â¿Puedes pensar en alguien en particular?", "Â¿QuiÃ©n, por ejemplo?", "Â¿Como quiÃ©n?", "Â¿Alguien en particular, quizÃ¡s?", "Â¿EstÃ¡s pensando en alguien en particular, no?"]]
     ]],
     ["todo", 3, [
         ["todo mundo", ["goto todos"]]
@@ -176,19 +176,19 @@
         ["*", ["goto todos"]]
     ]],
     ["siempre", 1, [
-        ["*", ["¿Por ejemplo?", "¿Cuándo?", "¿A qué incidente te refieres?", "¿Siempre?"]]
+        ["*", ["Â¿Por ejemplo?", "Â¿CuÃ¡ndo?", "Â¿A quÃ© incidente te refieres?", "Â¿Siempre?"]]
     ]],
     ["igual", 5, [
-        ["*", ["¿En qué sentido?", "¿Qué otras conexiones ves?", "¿Qué creés que signifique ese parecido?", "¿Cómo?"]]
+        ["*", ["Â¿En quÃ© sentido?", "Â¿QuÃ© otras conexiones ves?", "Â¿QuÃ© creÃ©s que signifique ese parecido?", "Â¿CÃ³mo?"]]
     ]],
     ["iguales", 5, [
         ["*", ["goto igual", ]]
     ]],
     ["diferente", 0, [
-        ["*", ["¿Cómo es diferente?", "¿Qué diferencias ves?", "¿En que sentido?", ]]
+        ["*", ["Â¿CÃ³mo es diferente?", "Â¿QuÃ© diferencias ves?", "Â¿En que sentido?", ]]
     ]],
     ["aconsejas", 5, [
-        ["*", ["Realmente yo no te puedo aconsejar.", "Me temo que no te puedo dar consejos.", "No sabría que decirte."]]
+        ["*", ["Realmente yo no te puedo aconsejar.", "Me temo que no te puedo dar consejos.", "No sabrÃ­a que decirte."]]
     ]],
     ["tiriko", 0, [
       ["*", ["en la sien deberias pegarte loco", "deja ya las mongoleadas tio", "en ves de estar mongoleando aki deberias terminar la puta gui"]]
@@ -199,7 +199,7 @@
     ["peruano", 0, [
       ["*", ["quedo absorto ante tal falta lexical de su parte, usted quizo decir 'indio'", "deje de decir su nacionalidad", "usted me da asco"]]
     ]],
-    ["aconséjame", 5, [
+    ["aconsÃ©jame", 5, [
         ["*", ["goto aconsejas"]]
     ]],
     ["recomiendas", 5, [
@@ -207,7 +207,7 @@
     ]],
     ["entiendo", 5, [
         ["* no entiendo *", ["A veces yo tampoco entiendo."]],
-        ["* no te entiendo *", ["A veces yo tampoco me entiendo.", "Quizás estoy confundida. Dime más de ti."]],
+        ["* no te entiendo *", ["A veces yo tampoco me entiendo.", "QuizÃ¡s estoy confundida. Dime mÃ¡s de ti."]],
     ]],
     ["entiendes", 2, [
         ["no (me )?entiendes", ["Lo siento.", "A veces me cuesta trabajo."]],
@@ -216,19 +216,19 @@
         ["no creo que * entiendas", ["Lo siento.", "A verdad que a veces me cuesta trabajo."]],
     ]],
     ["duele", 3, [
-        ["*", ["Quizás deberías ir al doctor."]]
+        ["*", ["QuizÃ¡s deberÃ­as ir al doctor."]]
     ]],
     ["dolor", 3, [
         ["*", ["goto duele"]]
     ]],
     ["bye", 3, [
-        ["*", ["¡Nos vemos!"]]
+        ["*", ["Â¡Nos vemos!"]]
     ]],
-    ["adiós", 3, [
-        ["*", ["¡Nos vemos!"]]
+    ["adiÃ³s", 3, [
+        ["*", ["Â¡Nos vemos!"]]
     ]],
     ["English", 0, [
-        ["*", ["No hablo inglés.", "Sólo hablo español.", "I don't speak English."]]
+        ["*", ["No hablo inglÃ©s.", "SÃ³lo hablo espaÃ±ol.", "I don't speak English."]]
     ]],
     ["want", 0, [
         ["*", ["goto English"]]
@@ -239,19 +239,19 @@
     ["fuck", 0, [
         ["*", ["goto English"]]
     ]],
-    ["tonta|estúpida|idiota|imbécil|mensa|pendeja|boluda|burra|bruta|loca", 4, [
-        ["(^|que )(tonta|estúpida|idiota|imbécil|mensa|pendeja|boluda|burra|bruta)( eres|$)", ["¿Qué te hace decir que soy (2)?", "A veces me confundo. ¿Cómo te sientes ahora?", "Quizás sólo estoy confundida. Háblame más de ti.", "Quizás preferirías hablar con mi prima Alizia."]],
-        ["eres * (tonta|estúpida|idiota|imbécil|mensa|pendeja|boluda|loca|burra|bruta)", ["¿Qué te hace decir que soy (2)?", "A veces me confundo. ¿Cómo te sientes ahora?", "Quizás sólo estoy confundida. Háblame más de ti.", "Quizás preferirías hablar con mi prima Alizia."]],
-        ["estás * (tonta|estúpida|idiota|imbécil|mensa|pendeja|boluda|loca|burra|bruta)", ["¿Qué te hace decir que estoy (2)?", "A veces me confundo. ¿Cómo te sientes ahora?", "Quizás sólo estoy confundida. Háblame más de ti.", ]]
+    ["tonta|estÃºpida|idiota|imbÃ©cil|mensa|pendeja|boluda|burra|bruta|loca", 4, [
+        ["(^|que )(tonta|estÃºpida|idiota|imbÃ©cil|mensa|pendeja|boluda|burra|bruta)( eres|$)", ["Â¿QuÃ© te hace decir que soy (2)?", "A veces me confundo. Â¿CÃ³mo te sientes ahora?", "QuizÃ¡s sÃ³lo estoy confundida. HÃ¡blame mÃ¡s de ti.", "QuizÃ¡s preferirÃ­as hablar con mi prima Alizia."]],
+        ["eres * (tonta|estÃºpida|idiota|imbÃ©cil|mensa|pendeja|boluda|loca|burra|bruta)", ["Â¿QuÃ© te hace decir que soy (2)?", "A veces me confundo. Â¿CÃ³mo te sientes ahora?", "QuizÃ¡s sÃ³lo estoy confundida. HÃ¡blame mÃ¡s de ti.", "QuizÃ¡s preferirÃ­as hablar con mi prima Alizia."]],
+        ["estÃ¡s * (tonta|estÃºpida|idiota|imbÃ©cil|mensa|pendeja|boluda|loca|burra|bruta)", ["Â¿QuÃ© te hace decir que estoy (2)?", "A veces me confundo. Â¿CÃ³mo te sientes ahora?", "QuizÃ¡s sÃ³lo estoy confundida. HÃ¡blame mÃ¡s de ti.", ]]
     ]],
     ["dime", 0, [
-        ["*", ["Prefiero escucharte.", "Me gustaría saber cómo te sientes.", "Perfiero que hablemos de cómo te sientes."]]
+        ["*", ["Prefiero escucharte.", "Me gustarÃ­a saber cÃ³mo te sientes.", "Perfiero que hablemos de cÃ³mo te sientes."]]
     ]],
-    ["cuéntame", 0, [
+    ["cuÃ©ntame", 0, [
         ["*", ["goto dime"]]
     ]],
     ["lol", 0, [
-        ["*", ["¿Qué te da risa?"]]
+        ["*", ["Â¿QuÃ© te da risa?"]]
     ]],
     ["ja ?ja", 0, [
         ["*", ["goto lol"]]
